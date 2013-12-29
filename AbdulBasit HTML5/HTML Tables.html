@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+</head>
+<body style="background-color: bisque">
+    <p>
+    Each table starts with a table tag.
+    Each table row starts with a tr tag.
+    Each table data starts with a td tag.
+    </p>
+    <h4>One column:</h4>
+    <table border="1">
+        <tr>
+            <td>100</td>
+        </tr>
+    </table>
+<hr>
+    <h4>One row and three columns:</h4>
+    <table border="1">
+        <tr>
+            <td>100</td>
+            <td>200</td>
+            <td>300</td>
+        </tr>
+    </table>
+<hr>
+    <h4>This table has no borders:</h4>
+
+    <table>
+        <tr>
+            <td>100</td>
+            <td>200</td>
+            <td>300</td>
+        </tr>
+        <tr>
+            <td>400</td>
+            <td>500</td>
+            <td>600</td>
+        </tr>
+    </table>
+
+    <h4>And this table has no borders:</h4>
+    <table border="0">
+        <tr>
+            <td>100</td>
+            <td>200</td>
+            <td>300</td>
+        </tr>
+        <tr>
+            <td>400</td>
+            <td>500</td>
+            <td>600</td>
+        </tr>
+    </table>
+<hr>
+    <h4>Table Headers</h4>
+    <table border="1">
+        <tr>
+            <th>ID</th>
+            <th>Name</th>
+            <th>Contact</th>
+        </tr>
+        <tr>
+            <td>AB01</td>
+            <td>Abdul Basit</td>
+            <td>0333********</td>
+        </tr>
+    </table>
+
+    <h4>Vertical headers</h4>
+    <table border="1">
+        <tr>
+            <th>ID</th>
+            <td>AB01</td>
+        </tr>
+        <tr>
+            <th>Name</th>
+            <td>Abdul Basit</td>
+        </tr>
+        <tr>
+            <th>Contact</th>
+            <td>0333********</td>
+        </tr>
+    </table>
+<hr>
+    <h4>Cell that spans two columns:</h4>
+    <table border="1">
+        <tr>
+            <th>ID</th>
+            <th>Name</th>
+            <th colspan="2">Contact</th>
+        </tr>
+        <tr>
+            <td>AB01</td>
+            <td>Abdul Basit</td>
+            <td>0333********</td>
+            <td>0313********</td>
+
+        </tr>
+    </table>
+
+    <h4>Cell that spans two rows:</h4>
+    <table border="1">
+        <tr>
+            <th>ID</th>
+            <td>AB01</td>
+        </tr>
+        <tr>
+            <th>Name</th>
+            <td>Abdul Basit</td>
+        </tr>
+        <tr>
+            <th rowspan="2">Contact</th>
+            <td>0333********</td>
+        </tr>
+       <tr>
+        <td>0313********</td>
+        </tr>
+    </table>
+<hr>
+    <h4>Tags inside a table</h4>
+    <table border="1">
+        <tr>
+            <td>
+                <p>This is a paragraph</p>
+                <p>This is another paragraph</p>
+            </td>
+
+
+            <td>This cell contains a table:
+                <table border="1">
+                    <tr>
+                        <td>A</td>
+                        <td>B</td>
+                    </tr>
+
+                    <tr>
+                        <td>C</td>
+                        <td>D</td>
+                    </tr>
+                </table>
+
+            </td>
+        </tr>
+
+
+        <tr>
+            <td>This cell contains a list
+                <ul>
+                    <li>apples</li>
+                    <li>bananas</li>
+                    <li>pineapples</li>
+                </ul>
+            </td>
+            <td>HELLO</td>
+        </tr>
+    </table>
+<hr>
+    <h4>Without cell padding:</h4>
+    <table border="1">
+        <tr>
+            <td>First</td>
+            <td>Row</td>
+        </tr>
+        <tr>
+            <td>Second</td>
+            <td>Row</td>
+        </tr>
+    </table>
+
+    <h4>With cell padding:</h4>
+    <table border="1" cellpadding="20">
+        <tr>
+            <td>First</td>
+            <td>Row</td>
+        </tr>
+        <tr>
+            <td>Second</td>
+            <td>Row</td>
+        </tr>
+    </table>
+<hr>
+
+    <h4>Without Cell Spacing</h4>
+    <table border="1">
+        <tr>
+            <td>First</td>
+            <td>Row</td>
+        </tr>
+        <tr>
+            <td>Second</td>
+            <td>Row</td>
+        </tr>
+    </table>
+
+    <h4>With cellspacing="0":</h4>
+    <table border="1" cellspacing="0">
+        <tr>
+            <td>First</td>
+            <td>Row</td>
+        </tr>
+        <tr>
+            <td>Second</td>
+            <td>Row</td>
+        </tr>
+    </table>
+
+    <h4>With cellspacing="10":</h4>
+    <table border="1" cellspacing="10">
+        <tr>
+            <td>First</td>
+            <td>Row</td>
+        </tr>
+        <tr>
+            <td>Second</td>
+            <td>Row</td>
+        </tr>
+    </table>
+</body>
+</html>
